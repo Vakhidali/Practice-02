@@ -1,0 +1,460 @@
+body {
+    margin: 0;
+    /* /* width: 100%; */
+    max-width: 1920px; 
+    font-family: 'Montserrat';
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    margin-right: 375px;
+}
+
+.header_inner {
+    display: flex;
+    margin: 30px 375px 11px 375px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav {
+    display: block;
+}
+
+.nav_link {
+    margin-left: 60px;
+    color: #101010;
+    text-decoration: none;
+}
+
+.nav_number {
+    text-decoration: none;
+    color: #A52424;
+}
+
+.main_self {
+    display: flex;
+    margin: 0 375px;
+}
+
+.main_title {
+    margin: 120px 53px 0 0 ;
+}
+.title_inner {
+    font-weight: bold;
+    font-size: 72px;
+    margin: 0;
+    letter-spacing: 4px;
+}
+.main_self_button {
+    border: 1px solid #A52424;
+    padding: 10px; 
+    margin-top: 60px;
+    background-color: white;
+}
+
+.main_self_button_link {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: #A52424;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 10px;
+}
+
+main_logo {
+    max-width: 100%;
+    height: 100%;
+}
+
+.about_me {
+display: flex;
+margin-top: 150px;
+}
+
+.about_me_inner {
+    margin-left: 375px;
+    /* box-shadow: 0 0 5px red; */
+}
+
+.about_me_title h1 {
+    letter-spacing: 4px;
+    font-size: 64px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+
+.about_me_name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #A52424;
+    padding: 50px 0 60px 0;
+}
+.about_me_name p {
+    text-align: center;
+    padding-left: 30px;
+}
+
+.about_me_logo {
+    position: relative;
+    left: 30%;
+    z-index: 10;
+    padding: 30px 0 0 0;
+}
+.about_me_box {
+box-shadow: 0 0 10px rgba(214, 206, 206, 0.404);
+width: 343px;
+}
+
+.intro {
+    margin: 0 375px 0 152px;
+}
+
+.intro_title {
+    margin-top: 228px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #A52424;
+}
+
+.intro_subtitle {
+    font-size: 18px;
+}
+.intro_logo {
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(214, 206, 206, 0.404);
+    padding: 20px 0;
+    position: relative;
+    left: 7%;
+}
+.intro_logo img {
+position: relative;
+right: 7%;
+    z-index: 10;
+}
+
+.portfolio {
+    margin: 150px 375px 150px 375px;
+}
+
+.content_1 {
+    display: flex;
+    
+}
+
+.portfolio_title {
+   font-size: 60px;
+   margin: 30px;
+   
+}
+.portfolio_title h1 {
+    padding: 40px;
+    font-size: 64px;
+        font-weight: bold;
+        letter-spacing: 4px;
+}
+
+.portfolio_1_title h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.portfolio_1_subtitle {
+    font-size: 18px;
+}
+
+.portfolio_1_button {
+border: 1px solid #A52424;
+background-color: white;
+padding: 15px 50px;
+}
+
+.portfolio_1_button a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    color: #A52424;
+}
+
+.portfolio_2 {
+    margin-left: 20px;
+}
+
+.portfolio_2_title h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.portfolio_2_subtitle {
+    font-size: 18px;
+}
+.portfolio_2_button {
+    border: 1px solid #A52424;
+    background-color: white;
+    padding: 15px 50px;
+}
+
+.portfolio_2_button a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    color: #A52424;
+}
+
+.portfolio_3    {
+    margin-left: 20px;
+}
+.portfolio_3_title h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.portfolio_3_subtitle {
+    font-size: 18px;
+}
+.portfolio_3_button {
+    border: 1px solid #A52424;
+    background-color: white;
+    padding: 15px 50px;
+}
+
+.portfolio_3_button a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    color: #A52424;
+}
+
+                /* Photosession */
+.photosession {
+    margin-left: 375px;
+    padding: 100px 0;
+}
+.photosession_box {
+   padding: 100px 110px;
+    margin-top: 150px;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(214, 206, 206, 0.404);
+   position: relative;
+}
+.photosession_title {
+    margin-bottom: 100px;
+}
+.photosession_title h1 {
+font-size: 64px;
+font-weight: bold;
+letter-spacing: 3px;
+}
+.photosession_logo {
+margin: 0 110px;
+max-width: 100%;
+
+}
+.photosession_logo img {
+position: absolute;
+    bottom: 54%;
+    right: 20%;
+}
+
+.photosession_button_spun {
+color: #A52424;
+font-size: 36px;
+font-weight: 600;
+}
+
+.photosession_title_2 {
+    text-align: center;
+    color: #A52424;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+.photosession_subtitle {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+
+}
+.subtitle-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle-1_span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.photosession_button {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    text-align: center;
+    color: #A52424;
+        font-size: 36px;
+        font-weight: 600;
+        
+}
+
+.photosession_button button {
+    text-decoration: none;
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-weight: 500;
+        color: #A52424;
+        background-color: white;
+}
+
+
+.video_rec {
+    margin: 226px 0px 20px 152px;
+}
+
+.form_wrapper {
+    display: flex;
+    margin: 0 375px;
+}
+
+.form_title {
+    margin-left: 375px;
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.form_logo-1 {
+position: relative;
+}
+
+.form_logo-2 {
+position: relative;
+z-index: 100;
+right: 4%;
+bottom: 7%;
+}
+
+.name {
+    width: 476px;
+    height: 60px;
+    margin: 0 0 40px 0;
+    border: 2px solid #e2e2e2ad;
+    box-shadow: 0 0 5px rgb(141, 134, 134);
+   
+}
+
+input[type="name"]::placeholder {
+    color: #b8b0b085;
+} 
+.email {
+    width: 476px;
+        height: 60px;
+        margin: 0 0 40px 0;
+        border: 2px solid #e2e2e2ad;
+            box-shadow: 0 0 5px rgb(141, 134, 134);
+}
+
+input[type="email"]::placeholder {
+ color: #b8b0b085;
+}
+
+.text {
+    width: 476px;
+        height: 221px;
+        border: 2px solid #e2e2e2ad;
+            box-shadow: 0 0 5px rgb(141, 134, 134);
+}
+input[type="text"]::placeholder {
+    color: #b8b0b085;
+    position: fixed;
+}
+
+.form_button {
+    margin-top:40px ;
+}
+
+.form_button button {
+    height: 60px;
+    width: 476px;
+    font-family: 'Montserrat';
+    background-color: white;
+    border: 1px solid #A52424;
+    color: #A52424;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* margin: 0 375px; */
+    border-top: 4px solid rgba(128, 128, 128, 0.548);
+    padding: 30px;
+    align-items: center;
+}
+.footer_logo {
+    margin-left: 375px;
+}
+
+.link_1{
+    margin: 20px;
+}
+
+.link_2 img {
+    margin: 20px 20px 6px 20px;
+}
+.link_3 {
+margin-left: 20px;
+}
+
+.footer_number {
+    margin-right: 375px;
+}
+
+.footer_number a {
+text-decoration: none;
+color: #A52424;
+}
+
+
+            /* Адаптивність */
+
+   @media (max-width:1920px) {
+    .main_self {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+   }         
+
+   @media (max-width:1024px) {
+    .about_me {
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    
+   }
+
+
+
+
+
+
+
+
+
+
+
